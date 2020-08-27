@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+
+/*mainSlider*/
+.slickBtn{
+	position:absolute;
+	z-index:10;
+	top:50%;
+	margin-top:-35px;
+    width:36px;
+    height:71px;
+	color:#000;
+    text-indent:-9999px;
+    border:none;
+}
+.slick-prev{
+    background:url(../images/main/main_left_arrow.png)no-repeat;
+    left:50px;
+    
+}
+.slick-next{
+    background:url(../images/main/main_right_arrow.png)no-repeat;
+    right:50px;
+}
+.mainSlider .slick-dots{
+	position:absolute;
+	left:50%;
+	margin-left:-22px;
+	bottom:25px;
+}
+.slick-dots li{
+	width:15px;
+	height:3px;
+	float:left;
+	border:1px solid #ccc;
+	border-radius:10px;
+	margin-left:6px;
+	text-indent:-9999px;
+}
+.mainSlider .slick-slide{
+	position:relative;
+	overflow:hidden;
+	height:850px;
+}
+
+.mainSlider img{
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+
+}
+.slick-active{
+	background:#ccc;
+}
+
+
+
+/*contents*/
+
+.conTxt{
+    padding:50px 0;
+    position:relative;
+}
+.conTxt h3{
+    font-size:28px;
+}
+.conTxt p{
+    position:absolute;
+    right:0;
+    top:50%;
+    font-size:13px;
+}
+.conTxt p a{}
+.conTxt p a img{
+    margin-left:5px;
+    margin-bottom:-1px;
+}
+
+
+/*기획전*/
+.uv{
+    padding:60px 0;
+}
+.uvBox{
+	box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+    background:url(../images/main/uv_img.png)no-repeat center center;
+	width:1200px;
+	height:700px;
+    position:relative;
+}
+.listBox{
+    width:300px;
+    padding:60px 100px;
+}
+
+.uvList{
+	padding:55px 0;
+    padding-left:130px;
+}
+
+.uvList a h4{
+	padding-bottom:25px;
+}
+.uvList a p{
+	font-size:13px;
+    padding-bottom:5px;
+}
+.uvList a span{
+	font-size:12px;
+}
+
+.list1{
+    background:url(../images/main/mildImg.png)no-repeat left center;
+}
+.list1 span{
+    color:#fbb91a;
+}
+
+.list2{
+	background:url(../images/main/kidsImg.png)no-repeat left center;
+}
+.list2 span{
+    color:#fcd77d;
+}
+
+.list3{
+    background:url(../images/main/sunc.png)no-repeat left center;
+}
+.list3 span{
+    color:#ffb9b9;
+} 
+
+.moreBtn{
+    position:absolute;
+    bottom:70px;
+    right:50%;
+}
+.moreBtn img{
+    margin-left:5px;
+    margin-bottom:-1px;
+}
+
+
+/*인기브랜드*/
+.brandCon{
+    padding:60px 0;
+}
+.brandBox li{
+    float:left;
+    width:285px;
+    margin-right:20px;
+}
+.brandBox li:last-child{
+    margin-right:0;
+}
+.brandBox li a{
+    width:285px;
+    height:80px;
+    overflow:hidden;
+    display:block;
+}
+.brandBox li a img{
+    transition:all 0.5s;
+}
+.brandBox li:hover img{
+    transform:scale(1.12);
+}
+
+
+/*뷰티팁 포토리뷰*/
+.tipReview{
+    padding:60px 0;
+}
+.bBox{
+    float:left;
+    width:590px;
+}
+
+.tip{
+    margin-right:20px;
+}
+
+.tipBox{}
+.tipBox li{
+    float:left;
+    margin-right:9px;
+    margin-bottom:10px;
+}
+.tipBox li:first-child{
+    width:195px;
+    height:195px;
+}
+.tipBox li:nth-child(5){
+    margin-right:0;
+}
+.tipBox li:nth-child(9){
+    margin-right:0;
+}
+.tipBox li a{}
+.tipBox li a img{
+    width:100%;
+}
+
+
+.review{
+}
+
+.reviewBox{}
+.reviewBox li{
+    float:left;
+    margin-right:10px;
+}
+.reviewBox li:nth-child(5n){
+    margin-right:0;
+}
+.reviewBox li a{}
+.reviewBox li a img{}
+
+
+
+
+
+
